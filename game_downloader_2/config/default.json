@@ -1,0 +1,6 @@
+{
+    "mongoURI" : "mongodb://127.0.0.1:27017/makerspace",
+    "avatarBaseURI" : "https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=",
+    "jwtSecret" : "bcdl2efff5rgh3h2fibh25i",
+    "clientOrigin" : "http://localhost:3000"
+}

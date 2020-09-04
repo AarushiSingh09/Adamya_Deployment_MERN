@@ -1,0 +1,36 @@
+.editor-parent {
+  max-width: 70vw;
+  padding-bottom: 5rem;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.editor-wrapper {
+  height: 30vh;
+  margin: auto;
+  max-width: 1000px;
+  z-index: 2;
+}
+
+.form-editor {
+  height: 30vh;
+  width: 90vw;
+  width: inherit;
+  opacity: 1;
+  background: white;
+  -webkit-transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
+}
+
+.forgot-btn {
+  margin-left: 15vw;
+}
+
+.form-editor:hover {
+  background: whitesmoke;
+}
+
+.application-form {
+  margin: 5vh 10vw;
+}
+/*# sourceMappingURL=form.css.map */

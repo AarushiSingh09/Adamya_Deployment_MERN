@@ -1,0 +1,42 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon starter",
+    "front": "npm start --prefix front",
+    "dev": "concurrently \"npm run server\" \"npm run front\"",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.7",
+    "nodemailer": "^6.4.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-react-transform": "^3.0.0",
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
