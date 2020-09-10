@@ -38,6 +38,7 @@ const Login = () => {
   }
   
   return (
+    <body className="login_back">
     <Form className="container" onSubmit={onSubmit}>
             <h1 className="text-center heading">Login</h1>
             <Form.Group controlId="formEmail">
@@ -67,6 +68,7 @@ const Login = () => {
                 Login
             </Button>
         </Form>
+         </body>
     );
   };
   

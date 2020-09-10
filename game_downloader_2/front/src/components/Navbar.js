@@ -23,13 +23,13 @@ const Navbar = () => {
   const GuestLinks = (
     <ul>
     <Link to="/register">
-          <Button variant="outline-light" > Sign Up</Button>
+          <Button className="nav_butt"  > Sign Up</Button>
     </Link>
     <Link to="/login">
-          <Button variant="outline-light" > Login</Button>
+          <Button className="nav_butt"  > Login</Button>
     </Link>
     <Dropdown>
-        <Dropdown.Toggle className="field" id="basic-nav-dropdown">{lang}</Dropdown.Toggle>
+        <Dropdown.Toggle className="lang_butt" id="basic-nav-dropdown">{lang}</Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item onClick={e=>changeLanguage(e,"en")}>English</Dropdown.Item>
           <Dropdown.Item onClick={e=>changeLanguage(e,"hi")}>हिन्दी</Dropdown.Item>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <Button variant="outline-light" onClick={()=>dispatch(logout())}> Logout</Button>
     </Link>
     <Dropdown>
-        <Dropdown.Toggle className="field" id="basic-nav-dropdown">{lang}</Dropdown.Toggle>
+        <Dropdown.Toggle variant="outline-light" >{lang}</Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item onClick={e=>changeLanguage(e,"en")}>English</Dropdown.Item>
           <Dropdown.Item onClick={e=>changeLanguage(e,"hi")}>हिन्दी</Dropdown.Item>
@@ -57,11 +57,16 @@ const Navbar = () => {
    </ul>
   );
     return(
-        <div>
+        <div >
          <nav className="navbar bg-dark">
-          <h2>
-           <a href="/">Adamya : The Indomitable One!</a>
-          </h2>
+           <div className="nav_left">
+         <a href="/">
+         <img  className="logo" src={require("./images/logo.png")} />
+         </a>
+          <a href="http://www.bbbpindia.gov.in/">
+          <img  className="logo" src={require("./images/bbbp_logo.png")} target="_blank" />
+           </a>
+           </div>
           {isAuthenticated?AuthLinks:GuestLinks}
          </nav>
         </div>
