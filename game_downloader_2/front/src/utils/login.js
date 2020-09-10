@@ -47,7 +47,7 @@ export const login = ({ email, password }) => async dispatch => {
     });
   } catch (err) {
     console.log(err.message);
-    dispatch(setAlert('Login Failed. Try Again','danger'));
+    dispatch(setAlert('Login Failed','danger'));
     dispatch({
       type: LOGIN_FAIL
     });

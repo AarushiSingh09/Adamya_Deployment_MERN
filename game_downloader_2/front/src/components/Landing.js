@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/main.css'
 import Button from 'react-bootstrap/Button';
 import {Link} from "react-router-dom";
-import AnimatedButton from 'react-animated-buttons';
+// import AnimatedButton from 'react-animated-buttons';
 // import {
 //   AwesomeButton,
 //   AwesomeButtonProgress,
@@ -20,7 +20,8 @@ const Landing = (props) => {
           </p>
           <Link to="/download">
           <div style={{margin: '0rem 1rem', display: 'inline-block',fontFamily:'Franklin Gothic Medium',fontStyle:'bold'}}>
-          <AnimatedButton   color="#ead724" textColor="#a00955fd">Get Now</AnimatedButton>
+          {/* <AnimatedButton   color="#ead724" textColor="#a00955fd">Get Now</AnimatedButton> */}
+          <Button  className="Primary">Get Now</Button>
           </div>
           {/* <AwesomeButtonProgress type="primary">Primary</AwesomeButtonProgress> */}
           </Link>
