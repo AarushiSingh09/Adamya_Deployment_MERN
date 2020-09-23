@@ -66,9 +66,9 @@ const Login = () => {
                 </Form.Text>
             </Form.Group>
             <center>
-            <Button variant="primary" type="submit">
+            <button class="logreg btn btn-primary" type="submit">
                 Login
-            </Button>
+            </button>
             </center>
         </Form>
         </div>

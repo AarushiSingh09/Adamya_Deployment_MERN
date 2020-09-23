@@ -90,9 +90,9 @@ const Register = () => {
                 </Form.Text>
             </Form.Group>
             <center>
-            <Button variant="primary" type="submit">
+            <button class="logreg btn btn-primary" type="submit">
                 Register
-            </Button>
+            </button>
             </center>
         </Form>
    </body>

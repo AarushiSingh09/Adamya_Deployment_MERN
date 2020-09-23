@@ -10541,6 +10541,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  color: #f97d72;
   text-align: center !important;
 }
 
@@ -11376,13 +11377,15 @@ html, body {
 .landing {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
-  background: url("../images/new_bg2.PNG") no-repeat center center/cover;
+  background-size: 150px;
+  background: url("../images/hp_bg.PNG") ;
   height: 100vh;
 }
 .get_now{
+  border-color: #f97d72;
   padding-right: 35px;
     padding-left: 35px;
-  margin-left: 20px;
+  margin-left: 60px;
     font-size: xx-large;
     color: #F9EEE0;
     margin-top: 500px;
@@ -11390,6 +11393,7 @@ html, body {
     border-radius: 3rem;
 }
 .down_w {
+  border-color: #f97d72;
   padding-right: 35px;
   padding-left: 35px;
 margin-left: 20px;
@@ -11400,6 +11404,7 @@ margin-left: 20px;
   border-radius: 3rem;
 }
 .down_l {
+  border-color: #f97d72;
   padding-right: 35px;
   padding-left: 35px;
 margin-left: 20px;
@@ -11409,7 +11414,19 @@ margin-left: 20px;
   background-color: #f97d72;
   border-radius: 3rem;
 }
+.logreg {
+  border-color: #f97d72;
+  padding-right: 35px;
+  padding-left: 35px;
+margin-left: 20px;
+  font-size: x-large;
+  color: #F9EEE0;
+ /* margin-top: 450px; */
+  background-color: #f97d72;
+  border-radius: 3rem;
+}
 .play_now{
+  border-color: #f97d72;
   padding-right: 35px;
     padding-left: 35px;
   margin-left: 20px;
