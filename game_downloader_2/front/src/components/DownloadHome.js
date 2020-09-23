@@ -31,7 +31,7 @@ const App = () => {
                 </a>
                 <a target="_blank" href="./game">
                 <div className="form-group">
-                  <button className="get_now btn btn-primary">{t("Play Now!")}</button>
+                  <button className="play_now btn btn-primary">{t("Play Now!")}</button>
                 </div>
                 </a>
             </main>

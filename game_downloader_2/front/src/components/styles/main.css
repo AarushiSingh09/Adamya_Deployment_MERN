@@ -11404,9 +11404,19 @@ margin-left: 20px;
 margin-left: 20px;
   font-size: xx-large;
   color: #F9EEE0;
-  margin-top: 450px;
+ /* margin-top: 450px; */
   background-color: #f97d72;
   border-radius: 3rem;
+}
+.play_now{
+  padding-right: 35px;
+    padding-left: 35px;
+  margin-left: 20px;
+    font-size: xx-large;
+    color: #F9EEE0;
+    /* margin-top: 500px; */
+    background-color: #f97d72;
+    border-radius: 3rem;
 }
 .landing-inner {
   color: #fff;
@@ -11470,6 +11480,7 @@ margin-left: 20px;
   background: url("../images/login_reg_bg.png") no-repeat center center/cover;
 }
 .download{
+  height: 100vh;
   background: url("../images/downloadpg_bg.PNG") no-repeat center center/cover;
 }
 .login_box {
