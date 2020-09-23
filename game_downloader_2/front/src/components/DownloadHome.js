@@ -15,8 +15,8 @@ const App = () => {
           <div className="row">
             <div className="col col-12">
             <header className="App-header">
-              <h1 className="display-4 mt-4 mb-4">{t("Download the game from here!")}</h1>
-              <p>{t("Kindly choose one of the options")}</p>
+              <h1 className="display-4 mt-4 mb-4">{t("Download Adamya")}</h1>
+              {/* <p>{t("Kindly choose one of the options")}</p> */}
             </header>
             <main>
                 <a target="_blank" href="http://localhost:5027/windows">
