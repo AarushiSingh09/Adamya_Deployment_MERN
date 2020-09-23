@@ -28,6 +28,9 @@ const Navbar = () => {
     <Link to="/login">
           <Button className="nav_butt"  > Login</Button>
     </Link>
+    <Link to="/contact">
+          <Button className="nav_butt"  > Contact Us</Button>
+    </Link>
     <Dropdown>
         <Dropdown.Toggle className="lang_butt" id="basic-nav-dropdown">{lang}</Dropdown.Toggle>
         <Dropdown.Menu>

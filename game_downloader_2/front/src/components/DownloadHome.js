@@ -9,6 +9,7 @@ const App = () => {
   };
 
   return (
+    <body className="download">
       <div className="App">
         <div className="container-fluid">
           <div className="row">
@@ -20,17 +21,17 @@ const App = () => {
             <main>
                 <a target="_blank" href="http://localhost:5027/windows">
                 <div className="form-group">
-                  <button className="btn btn-primary">{t("Download") + "for Windows"}</button>
+                  <button className="down_w btn btn-primary">{t("Download") + "for Windows"}</button>
                 </div>
                 </a>
                 <a target="_blank" href="http://localhost:5027/linux">
                 <div className="form-group">
-                  <button className="btn btn-primary">{t("Download") + "for Linux"}</button>
+                  <button className="down_l btn btn-primary">{t("Download") + "for Linux"}</button>
                 </div>
                 </a>
                 <a target="_blank" href="./game">
                 <div className="form-group">
-                  <button className="btn btn-primary">{t("Play Now!")}</button>
+                  <button className="get_now btn btn-primary">{t("Play Now!")}</button>
                 </div>
                 </a>
             </main>
@@ -38,6 +39,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      </body>
     );
 }
 

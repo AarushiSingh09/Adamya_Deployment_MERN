@@ -46,8 +46,8 @@ const Register = () => {
     }
 
     return (
-        <body className="login_back">
-        <Form className="container" onSubmit={onSubmit}>
+        <body className="register">
+        {/* <Form className="container" onSubmit={onSubmit}>
             <h1 className="text-center heading">Register Here</h1>
             <Form.Group controlId="formName">
                 <Form.Label>Enter Name</Form.Label>
@@ -92,7 +92,7 @@ const Register = () => {
             <Button variant="primary" type="submit">
                 Register
             </Button>
-        </Form>
+        </Form> */}
    </body>
     )
 }

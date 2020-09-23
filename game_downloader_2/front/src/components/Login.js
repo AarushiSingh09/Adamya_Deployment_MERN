@@ -38,7 +38,8 @@ const Login = () => {
   }
   
   return (
-    <body className="login_back">
+    <div className="login_back">
+      {/* <div className="login_box">
     <Form className="container" onSubmit={onSubmit}>
             <h1 className="text-center heading">Login</h1>
             <Form.Group controlId="formEmail">
@@ -68,7 +69,8 @@ const Login = () => {
                 Login
             </Button>
         </Form>
-         </body>
+        </div> */}
+         </div>
     );
   };
   

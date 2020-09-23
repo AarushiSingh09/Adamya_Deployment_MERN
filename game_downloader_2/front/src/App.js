@@ -17,6 +17,7 @@ const Register = lazy(() => import("./components/Register"));
 const DownloadPage = lazy(() => import('./components/DownloadHome'));
 const Confirm = lazy(() => import('./components/Confirm'));
 const ForgotPassword = lazy(() => import('./components/ForgotPassword'));
+const Contact=lazy(() => import('./components/ContactUs'));
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
@@ -45,6 +46,7 @@ const App = () => {
               <Switch>
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/register" component={Register} />
+                <Route exact path="/contact" component={Contact} />
                 <Route exact path="/forgot" component={ForgotPassword} />
                 <Route exact path="/confirm/:token" component={Confirm} />
                 <PrivateRoute exact path="/download" component={DownloadPage} />

@@ -8,13 +8,13 @@ import {Link} from "react-router-dom";
 //   AwesomeButtonProgress,
 //   AwesomeButtonSocial,
 // } from 'react-awesome-button';
-const Landing = (props) => {
+const Contact = (props) => {
     return(
       
-      <div className="landing">
-        <Link to="/download">
+      <div className="contact">
+        {/* <Link to="/download">
          <button  className="get_now btn btn-primary">Get Now</button>
-         </Link>
+         </Link> */}
        {/* <div className="dark-overlay">
         <div ><centre>
                     <h1 className="x-large">ADAMYA-Game of the Indomitable</h1>
@@ -46,4 +46,4 @@ const Landing = (props) => {
     );
 }
     
-export default Landing;
+export default Contact;
